@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "technology": "Tecnología",
+    "portfolio": "Portafolio",
+    "team": "Equipo",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "title": "Soluciones Tecnológicas y en la Nube",
+      "subtitle": "Empresa tecnológica internacional especializada en soluciones cloud, desarrollo blockchain, integración de IA y aplicaciones móviles",
+      "cta_primary": "Comenzar",
+      "cta_secondary": "Nuestros Servicios"
+    },
+    "stats": {
+      "years": "Años de Experiencia",
+      "projects": "Proyectos Exitosos",
+      "clients": "Clientes Satisfechos",
+      "uptime": "SLA de Disponibilidad"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones tecnológicas integrales para empresas modernas",
+    "cloud": {
+      "title": "Soluciones Cloud",
+      "description": "Arquitectura cloud experta y servicios de migración para AWS, GCP y Azure"
+    },
+    "blockchain": {
+      "title": "Desarrollo Blockchain",
+      "description": "Integración de Bitcoin y Solana y desarrollo de dApps"
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "description": "Apps móviles nativas y multiplataforma con React Native y Flutter"
+    },
+    "ai": {
+      "title": "Integración de IA",
+      "description": "Soluciones de IA y aprendizaje automático de vanguardia"
+    },
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "PoC rápidos, MVP y aplicaciones Web2 y Web3 listas para producción"
+    },
+    "opensource": {
+      "title": "Código Abierto",
+      "description": "Desarrollo basado en código abierto con soluciones impulsadas por la comunidad"
+    }
+  },
+  "technology": {
+    "title": "Nuestra Stack Tecnológico",
+    "subtitle": "Construido sobre plataformas y frameworks líderes en la industria",
+    "bitcoin": "Desarrollo Bitcoin",
+    "solana": "Desarrollo Solana",
+    "cloud": "Infraestructura Cloud",
+    "mobile": "Plataformas Móviles"
+  },
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Proyectos exitosos entregados para clientes en todo el mundo"
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Conoce a los expertos detrás de Quantium Rock"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Construyamos algo increíble juntos",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado exitosamente!",
+      "error": "Error al enviar el mensaje. Por favor intenta de nuevo."
+    }
+  },
+  "footer": {
+    "company": "Empresa",
+    "services": "Servicios",
+    "resources": "Recursos",
+    "social": "Síguenos",
+    "copyright": "© 2025 Quantium Rock. Todos los derechos reservados."
+  },
+  "common": {
+    "learn_more": "Saber Más",
+    "get_started": "Comenzar",
+    "read_more": "Leer Más",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error"
+  }
+}

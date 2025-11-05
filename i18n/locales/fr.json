@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "technology": "Technologie",
+    "portfolio": "Portfolio",
+    "team": "Équipe",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Solutions Technologiques et Cloud",
+      "subtitle": "Entreprise technologique internationale spécialisée dans les solutions cloud, le développement blockchain, l'intégration IA et les applications mobiles",
+      "cta_primary": "Commencer",
+      "cta_secondary": "Nos Services"
+    },
+    "stats": {
+      "years": "Années d'Expérience",
+      "projects": "Projets Réussis",
+      "clients": "Clients Satisfaits",
+      "uptime": "SLA de Disponibilité"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions technologiques complètes pour les entreprises modernes",
+    "cloud": {
+      "title": "Solutions Cloud",
+      "description": "Architecture cloud experte et services de migration pour AWS, GCP et Azure"
+    },
+    "blockchain": {
+      "title": "Développement Blockchain",
+      "description": "Intégration Bitcoin et Solana et développement de dApps"
+    },
+    "mobile": {
+      "title": "Développement Mobile",
+      "description": "Applications mobiles natives et multiplateformes avec React Native et Flutter"
+    },
+    "ai": {
+      "title": "Intégration IA",
+      "description": "Solutions d'IA et d'apprentissage automatique de pointe"
+    },
+    "web": {
+      "title": "Développement Web",
+      "description": "PoC rapides, MVP et applications Web2 et Web3 prêtes pour la production"
+    },
+    "opensource": {
+      "title": "Open Source",
+      "description": "Développement open source avec des solutions communautaires"
+    }
+  },
+  "technology": {
+    "title": "Notre Stack Technologique",
+    "subtitle": "Construit sur des plateformes et frameworks leaders de l'industrie",
+    "bitcoin": "Développement Bitcoin",
+    "solana": "Développement Solana",
+    "cloud": "Infrastructure Cloud",
+    "mobile": "Plateformes Mobiles"
+  },
+  "portfolio": {
+    "title": "Notre Portfolio",
+    "subtitle": "Projets réussis livrés pour des clients du monde entier"
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Rencontrez les experts derrière Quantium Rock"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Construisons quelque chose d'incroyable ensemble",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "company": "Entreprise",
+      "message": "Message",
+      "submit": "Envoyer le Message",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi du message. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "company": "Entreprise",
+    "services": "Services",
+    "resources": "Ressources",
+    "social": "Suivez-nous",
+    "copyright": "© 2025 Quantium Rock. Tous droits réservés."
+  },
+  "common": {
+    "learn_more": "En Savoir Plus",
+    "get_started": "Commencer",
+    "read_more": "Lire Plus",
+    "back": "Retour",
+    "next": "Suivant",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite"
+  }
+}

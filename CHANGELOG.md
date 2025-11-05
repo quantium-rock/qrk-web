@@ -18,3 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Quantium Rock color palette: #3E3E3E, #585858, #706F70, #9B9B9B, #B1B0B1, #C5C5C5
 - Tailwind CSS configuration with custom theme colors
 - App configuration for theme switching and branding
+- Multi-language support with i18n (English, Spanish, French)
+- Translation files for UI elements and navigation
+- Browser language detection with cookie persistence
