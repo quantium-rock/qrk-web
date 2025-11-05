@@ -2,22 +2,22 @@
   <div class="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
-      <UxCommonContainer>
+      <UContainer>
         <nav class="flex items-center justify-between h-16">
           <!-- Logo -->
           <NuxtLink to="/" class="flex items-center space-x-2">
             <img 
-              :src="appConfig.nuxtUx.branding.logoLight"
+              src="/branding/logo-black.png"
               alt="Quantium Rock"
               class="h-10 w-auto dark:hidden"
             />
             <img 
-              :src="appConfig.nuxtUx.branding.logoDark"
+              src="/branding/logo-white.jpg"
               alt="Quantium Rock"
               class="h-10 w-auto hidden dark:block"
             />
             <span class="hidden sm:block text-xl font-bold text-gray-900 dark:text-white">
-              {{ appConfig.nuxtUx.branding.companyName }}
+              Quantium Rock
             </span>
           </NuxtLink>
 
@@ -76,7 +76,7 @@
             </NuxtLink>
           </div>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </header>
 
     <!-- Main Content -->
@@ -86,18 +86,18 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300">
-      <UxCommonContainer>
+      <UContainer>
         <div class="py-12">
           <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Company Info -->
             <div class="col-span-1 md:col-span-2">
               <img 
-                :src="appConfig.nuxtUx.branding.logoDark"
+                src="/branding/logo-white.jpg"
                 alt="Quantium Rock"
                 class="h-12 w-auto mb-4"
               />
               <p class="text-sm text-gray-400 mb-4">
-                {{ appConfig.nuxtUx.branding.tagline }}
+                Technology & Cloud Solutions
               </p>
               <div class="flex space-x-4">
                 <UButton
@@ -147,16 +147,12 @@
             {{ $t('footer.copyright') }}
           </div>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </footer>
-
-    <!-- Scroll to Top Button -->
-    <UxCommonBtnScrollTop />
   </div>
 </template>
 
 <script setup lang="ts">
-const appConfig = useAppConfig()
 const { locale, locales } = useI18n()
 const colorMode = useColorMode()
 

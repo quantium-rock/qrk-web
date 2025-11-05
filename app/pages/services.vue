@@ -1,16 +1,16 @@
 <template>
   <div>
     <section class="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-      <UxCommonContainer>
+      <UContainer>
         <div class="max-w-3xl mx-auto text-center">
           <h1 class="text-5xl font-bold mb-6">{{ $t('services.title') }}</h1>
           <p class="text-xl text-gray-300">{{ $t('services.subtitle') }}</p>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <section class="py-20">
-      <UxCommonContainer>
+      <UContainer>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <UCard v-for="service in services" :key="service.key">
             <template #header>
@@ -22,7 +22,7 @@
             <p>{{ $t(`services.${service.key}.description`) }}</p>
           </UCard>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
   </div>
 </template>

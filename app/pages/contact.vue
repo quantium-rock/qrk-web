@@ -1,16 +1,16 @@
 <template>
   <div>
     <section class="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-      <UxCommonContainer>
+      <UContainer>
         <div class="max-w-3xl mx-auto text-center">
           <h1 class="text-5xl font-bold mb-6">{{ $t('contact.title') }}</h1>
           <p class="text-xl text-gray-300">{{ $t('contact.subtitle') }}</p>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <section class="py-20">
-      <UxCommonContainer>
+      <UContainer>
         <div class="max-w-2xl mx-auto">
           <UCard>
             <form @submit.prevent="handleSubmit" class="space-y-6">
@@ -41,7 +41,7 @@
             <p class="text-lg">Website: https://quantium-rock.com</p>
           </div>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <!-- AI Chat Widget Placeholder -->

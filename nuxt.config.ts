@@ -6,7 +6,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxtjs/i18n',
-    '@alexcolls/nuxt-ux', // Add this LAST
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/test-utils',
@@ -29,12 +28,6 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root'
     }
-  },
-
-  // Configure nuxt-ux
-  nuxtUx: {
-    version: '0.6.0',
-    logoURL: 'https://quantium-rock.com'
   },
 
   // SEO configuration

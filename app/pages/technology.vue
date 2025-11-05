@@ -1,16 +1,16 @@
 <template>
   <div>
     <section class="py-20 bg-gradient-to-br from-primary-600 to-purple-600 text-white">
-      <UxCommonContainer>
+      <UContainer>
         <div class="max-w-3xl mx-auto text-center">
           <h1 class="text-5xl font-bold mb-6">{{ $t('technology.title') }}</h1>
           <p class="text-xl">{{ $t('technology.subtitle') }}</p>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <section class="py-20">
-      <UxCommonContainer>
+      <UContainer>
         <div class="grid md:grid-cols-2 gap-12 mb-16">
           <UCard>
             <template #header>
@@ -50,7 +50,7 @@
             </ul>
           </UCard>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
   </div>
 </template>

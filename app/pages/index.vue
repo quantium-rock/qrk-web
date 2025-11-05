@@ -9,7 +9,7 @@
         <div class="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
       </div>
 
-      <UxCommonContainer class="relative z-10">
+      <UContainer class="relative z-10">
         <div class="text-center space-y-8 max-w-4xl mx-auto">
           <h1 class="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
             {{ $t('home.hero.title') }}
@@ -19,13 +19,13 @@
           </p>
           
           <div class="flex flex-wrap items-center justify-center gap-4">
-            <UxCommonBtnGradient 
+            <UButton
+              :label="$t('home.hero.cta_primary')"
               icon="i-heroicons-rocket-launch"
               size="lg"
               to="/contact"
-            >
-              {{ $t('home.hero.cta_primary') }}
-            </UxCommonBtnGradient>
+              color="primary"
+            />
             
             <UButton
               :label="$t('home.hero.cta_secondary')"
@@ -49,12 +49,12 @@
             </div>
           </div>
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <!-- Services Overview -->
     <section class="py-20 bg-white dark:bg-gray-950">
-      <UxCommonContainer>
+      <UContainer>
         <div class="text-center mb-16">
           <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             {{ $t('services.title') }}
@@ -107,12 +107,12 @@
             to="/contact"
           />
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
 
     <!-- Technology Showcase -->
     <section class="py-20 bg-gray-50 dark:bg-gray-900">
-      <UxCommonContainer>
+      <UContainer>
         <div class="text-center mb-16">
           <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             {{ $t('technology.title') }}
@@ -140,7 +140,7 @@
             to="/technology"
           />
         </div>
-      </UxCommonContainer>
+      </UContainer>
     </section>
   </div>
 </template>
