@@ -21,3 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Multi-language support with i18n (English, Spanish, French)
 - Translation files for UI elements and navigation
 - Browser language detection with cookie persistence
+- Default layout with responsive header and footer
+- Navigation menu with language switcher and theme toggle
+- Mobile-responsive menu
+- Home page with hero section, animated background, and stats
+- Services overview section with 6 core services
+- Technology showcase section
