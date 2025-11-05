@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/test-utils',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/sitemap'
   ],
 
   // Configure i18n
@@ -37,12 +38,47 @@ export default defineNuxtConfig({
   },
 
   // SEO configuration
+  site: {
+    url: 'https://quantium-rock.com',
+    name: 'Quantium Rock'
+  },
+
+  sitemap: {
+    hostname: 'https://quantium-rock.com',
+    gzip: true,
+    routes: ['/', '/services', '/technology', '/portfolio', '/team', '/blog', '/contact']
+  },
+
   app: {
     head: {
       title: 'Quantium Rock - Technology & Cloud Solutions',
+      htmlAttrs: {
+        lang: 'en'
+      },
       meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'International technology company specializing in cloud solutions (AWS, GCP, Azure), blockchain development (Bitcoin, Solana), AI integration, and mobile apps.' },
-        { name: 'keywords', content: 'cloud solutions, blockchain development, Bitcoin, Solana, AI integration, mobile apps, AWS, GCP, Azure, React Native, Flutter' }
+        { name: 'keywords', content: 'cloud solutions, blockchain development, Bitcoin, Solana, AI integration, mobile apps, AWS, GCP, Azure, React Native, Flutter, Web3, dApp development' },
+        { name: 'author', content: 'Quantium Rock' },
+        
+        // Open Graph
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Quantium Rock' },
+        { property: 'og:title', content: 'Quantium Rock - Technology & Cloud Solutions' },
+        { property: 'og:description', content: 'International technology company specializing in cloud solutions, blockchain development, AI integration, and mobile apps.' },
+        { property: 'og:url', content: 'https://quantium-rock.com' },
+        { property: 'og:image', content: 'https://quantium-rock.com/branding/Logo Quantium Rock.jpg' },
+        
+        // Twitter Card
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Quantium Rock - Technology & Cloud Solutions' },
+        { name: 'twitter:description', content: 'International technology company specializing in cloud solutions, blockchain development, AI integration, and mobile apps.' },
+        { name: 'twitter:image', content: 'https://quantium-rock.com/branding/Logo Quantium Rock.jpg' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'canonical', href: 'https://quantium-rock.com' }
       ]
     }
   }

@@ -5,7 +5,7 @@ All notable changes to the Quantium Rock website will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.0] - 2025-11-05
 
 ### Added
 - Initial Nuxt 4 project setup with TypeScript
@@ -39,3 +39,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Environment variables documentation
 - Customization guides for branding, theme, and i18n
 - AI chat widget placeholder with ElevenLabs integration comment
+
+### SEO & Performance
+- Sitemap.xml generation with @nuxtjs/sitemap
+- Open Graph meta tags for social media sharing
+- Twitter Card integration
+- Robots.txt configuration
+- Canonical URLs
+- Structured meta tags (charset, viewport, author)
+- Enhanced keywords and descriptions
+
+### Release Notes
+- Complete website with all pages functional
+- Multi-language support (EN, ES, FR)
+- Dark/light theme with persistence
+- Responsive mobile-first design
+- SEO optimized for search engines
+- Company documentation complete
+- Ready for production deployment
