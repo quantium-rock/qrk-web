@@ -14,3 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configuration files: nuxt.config.ts with modules and SEO setup
 - Environment configuration template (.env.sample)
 - Project branding assets and color palette
+- Branding configuration with logo-black.png (light mode) and logo-white.jpg (dark mode)
+- Quantium Rock color palette: #3E3E3E, #585858, #706F70, #9B9B9B, #B1B0B1, #C5C5C5
+- Tailwind CSS configuration with custom theme colors
+- App configuration for theme switching and branding
