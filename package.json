@@ -1,0 +1,33 @@
+{
+  "name": "quantium-rock-web",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@alexcolls/nuxt-ux": "^0.6.0",
+    "@iconify-json/circle-flags": "^1.2.10",
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/line-md": "^1.2.11",
+    "@iconify-json/material-symbols": "^1.2.44",
+    "@iconify-json/pepicons-pop": "^1.2.3",
+    "@iconify-json/svg-spinners": "^1.2.4",
+    "@nuxt/content": "^3.8.0",
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/test-utils": "^3.20.1",
+    "@nuxt/ui": "^4.1.0",
+    "@nuxtjs/i18n": "^10.2.0",
+    "better-sqlite3": "^12.4.1",
+    "eslint": "^9.39.1",
+    "nuxt": "^4.2.0",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  }
+}
